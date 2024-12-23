@@ -64,3 +64,43 @@
   color: #fff;
   margin-bottom: 10px;
 }
+
+.field-section {
+  margin-top: 14px;
+}
+.withdraw-area {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.withdraw-area p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.input-field {
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.withdraw-division {
+  width: 50%;
+  background-color: #69247c;
+  padding: 24px 16px;
+}
+.deposit-division {
+  width: 50%;
+  background-color: #009990;
+  padding: 24px 16px;
+}
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: orangered;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
+}
