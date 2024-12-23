@@ -104,3 +104,12 @@
   margin-top: 8px;
   cursor: pointer;
 }
+.logout-btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: orangered;
+  padding: 8px 24px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
