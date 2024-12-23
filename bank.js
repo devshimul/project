@@ -22,3 +22,26 @@ btn.addEventListener("click", function () {
 
   withdrawField.value = "";
 });
+
+document.getElementById("btn-deposit").addEventListener("click", function () {
+  const depositField = document.getElementById("deposit-field");
+  const depositValueStr = depositField.value;
+  const depositValue = parseInt(depositValueStr);
+  console.log(depositValue);
+  const depositTotal = document.getElementById("deposit-total");
+  const depositBlncStr = depositTotal.innerText;
+  const depositBlnc = parseInt(depositBlncStr);
+  console.log(depositBlnc);
+
+  const depositTotalAmount = depositBlnc + depositValue;
+  depositTotal.innerText = depositTotalAmount;
+
+  const mainBlnc = document.getElementById("main-balance");
+  const totalBlncStr = mainBlnc.innerText;
+  const totalBlnc = parseInt(totalBlncStr);
+
+  const totalMainBlnc = totalBlnc + depositValue;
+  mainBlnc.innerText = totalMainBlnc;
+
+  depositField.value = "";
+});
