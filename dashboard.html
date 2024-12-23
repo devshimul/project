@@ -3,10 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashboard.css" />
     <title>Bank Dashboard</title>
   </head>
   <body>
-    <h1>Login success</h1>
-    <a href="index.html">Back to Login Page</a>
+    <section class="dashboard-section">
+      <div class="container">
+        <div class="title">
+          <h1>Bank Dashboard</h1>
+        </div>
+        <div class="row">
+          <div class="widthdraw">
+            <p>Withdraw</p>
+            <h1>$0</h1>
+          </div>
+          <div class="deposit">
+            <p>Deposit</p>
+            <h1>$0</h1>
+          </div>
+          <div class="main-balance">
+            <p>Main Balance</p>
+            <h1>$1500</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="field-section">
+      <div class="container">
+        <div class="withdraw-area">
+          <p>Withdraw Amount</p>
+          <input type="number" placeholder="Enter withdraw amount" />
+          <div>
+            <button>Withdraw</button>
+          </div>
+        </div>
+        <div class="deposit-area">
+          <p>Deposit Amount</p>
+          <input type="number" placeholder="Enter deposit amount" />
+          <div>
+            <button>Deposit</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

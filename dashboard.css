@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Dashboard css */
+.dashboard-section {
+}
+.title {
+  background-color: #009990;
+  color: #fff;
+  padding: 16px 0;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.title h1 {
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.widthdraw {
+  background-color: #2e5077;
+  width: 33.33%;
+  padding: 20px 32px;
+}
+.widthdraw h1 {
+  color: #fff;
+}
+.widthdraw p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.deposit {
+  background-color: #4da1a9;
+  width: 33.33%;
+  padding: 20px 32px;
+}
+.deposit h1 {
+  color: #fff;
+}
+.deposit p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.main-balance {
+  background-color: #69247c;
+  width: 33.33%;
+  padding: 20px 32px;
+}
+.main-balance h1 {
+  color: #fff;
+}
+.main-balance p {
+  color: #fff;
+  margin-bottom: 10px;
+}
